@@ -1,7 +1,7 @@
 
 "use strict";
 
-const BUSINESS_PHONE = "919867596508";
+const BUSINESS_PHONE = "919870988353";
 
 const header = document.getElementById("header");
 const navigation = document.getElementById("navigation");

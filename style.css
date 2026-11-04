@@ -1301,3 +1301,7 @@ h1 span {
         transparent 100%
     );
 }
+.contact-detail a {
+    display: block;
+    margin-top: 8px;
+}

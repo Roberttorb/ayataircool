@@ -1246,3 +1246,58 @@ h1 span {
 .photo-amc {
   background-image: url("./assets/amc-contract.jpg");
 }
+
+
+
+.hero-visual {
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("./assets/hero-ac.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* HERO IMAGE COLOR BLENDING */
+
+.hero {
+    background: #f1f7ff;
+}
+
+.hero-visual {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./assets/hero-ac.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    border-radius: 0;
+    box-shadow: none;
+
+    -webkit-mask-image: radial-gradient(
+        ellipse 78% 75% at center,
+        black 55%,
+        transparent 100%
+    );
+
+    mask-image: radial-gradient(
+        ellipse 78% 75% at center,
+        black 55%,
+        transparent 100%
+    );
+}
